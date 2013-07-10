@@ -1,43 +1,41 @@
-title:            So Simple Theme
-description:      A simple and clean responsive Jekyll theme for words and photos.
-logo:             site-logo.png
-disqus_shortname: sosimpletheme
+title:            A Personal Webpage
+description:      “Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.” - Dale Carnegie
+logo:             site-logo.svg
+disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/so-simple-theme
+url:              #http://mmistakes.github.io/so-simple-theme
 
 # Owner/author information
 owner:
-  name:           Michael Rose
-  avatar:         michael-rose-photo.jpg
-  email:          michael@mademistakes.com
+  name:           John Goh
+  avatar:         john-goh-photo.jpg
+  email:          jg@john-goh.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "mmistakes"
-  facebook:       "michaelrose"
-  github:         "mmistakes"
-  linkedin:       "michaelrose"
-  instagram:      "mmistakes"
-  tumblr:         "mademistakes"
+  twitter:        
+  facebook:       
+  github:         "jgmodgoh"
+  linkedin:       "john-goh/10/a2a/115"
+  instagram:      
+  tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-2
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+google_analytics:   
+google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+bing_verify:          
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Blog
+    url: /blog
+  - title: Contact
+    url: /contact
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
