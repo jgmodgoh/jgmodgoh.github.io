@@ -6,9 +6,9 @@ description: "An archive of blog posts."
 ---
 
 {% for post in site.posts %} 
-{% if post.category == "articles" %}
-<ul class="post-list">
-  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article><span class="post-description">{{ post.description }}</span></li>
-</ul>
-{% endif %}
+  {% if post.category == "articles" %}
+  <ul class="post-list">
+    <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article><span class="post-description">{{ post.description }}</span></li>
+  </ul>
+  {% endif %}
 {% endfor %}
