@@ -1,6 +1,6 @@
 title:            A Personal Webpage
 description:      “Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.” - Dale Carnegie
-logo:             site-logo.svg
+logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
 url:              #http://mmistakes.github.io/so-simple-theme
