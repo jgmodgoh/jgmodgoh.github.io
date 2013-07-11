@@ -5,6 +5,12 @@ disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
 url:              #http://mmistakes.github.io/so-simple-theme
 
+# Quotes
+#quote1:            '"Develop success from failures. Discouragement and failure are two of the surest stepping stones to success." - Dale Carnegie'         
+#number:  1
+#quote2:           Continuous effort - not strength or intelligence - is key to unlocking our potential. - Winston Churchill
+#quote3:           #"We are all in the gutter, but some of us are looking at the stars." - Oscar Wilde
+
 # Owner/author information
 owner:
   name:           John Goh
@@ -33,6 +39,8 @@ links:
     url: /about
   - title: Blog
     url: /blog
+  - title: Bits
+    url: /bits
   - title: Contact
     url: /contact
 
