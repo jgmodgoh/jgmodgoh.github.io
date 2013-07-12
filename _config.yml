@@ -1,15 +1,9 @@
 title:            A Personal Webpage
 description:      “Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.” - Dale Carnegie
 logo:             site-logo.svg
-disqus_shortname: 
+disqus_shortname: johngoh
 #Comment out url when working locally to resolve base urls correctly
 url:              #http://mmistakes.github.io/so-simple-theme
-
-# Quotes
-#quote1:            '"Develop success from failures. Discouragement and failure are two of the surest stepping stones to success." - Dale Carnegie'         
-#number:  1
-#quote2:           Continuous effort - not strength or intelligence - is key to unlocking our potential. - Winston Churchill
-#quote3:           #"We are all in the gutter, but some of us are looking at the stars." - Oscar Wilde
 
 # Owner/author information
 owner:
@@ -18,7 +12,7 @@ owner:
   email:          jg@john-goh.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
+  facebook:       john.goh.31
   github:         "jgmodgoh"
   linkedin:       "john-goh/10/a2a/115"
   instagram:      
