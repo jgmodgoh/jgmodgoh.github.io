@@ -27,4 +27,4 @@ Then copy the output and paste it into the file `~/Library/Application\ Support/
   <img src="/images/2013-7-12-bit-3.png">
 </figure>
 
-This should solve the problem.
+That should solve the problem.
