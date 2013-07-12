@@ -4,8 +4,6 @@ title: Sublime Text 2 snippet
 description: "Running code from the console of Sublime Text 2."
 category: bits
 tags: [Sublime Text 2, Load Path, Console, Tips]
-image:
-  feature: so-simple-sample-image-2.jpg
 comments: true
 ---
 

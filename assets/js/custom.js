@@ -4,13 +4,16 @@
 
    var quote_tag = $("#quote");
    var quotes = ['"Develop success from failures. Discouragement and failure are two of the surest stepping stones to success." - Dale Carnegie',
-                 '"Continuous effort - not strength or intelligence - is key to unlocking our potential." - Winston Churchill                  ',
-                 '"We are all in the gutter, but some of us are looking at the stars." - Oscar Wilde                                           '];
+                 '"I have not failed. I\'ve just found 10,000 ways that won\'t work." - Thomas Edison',
+                 '"Continuous effort - not strength or intelligence - is key to unlocking our potential." - Winston Churchill',
+                 '"Be nice to people on your way up because you meet them on your way down." - Jimmy Durante',
+                 '"Knowledge speaks, but wisdom listens." - Jimi Hendrix',
+                 '"We are all in the gutter, but some of us are looking at the stars."- Oscar Wilde'];
    var previous_quote = quote_tag.text();
-   var current_quote = quotes[Math.floor(Math.random()*3)];
+   var current_quote = quotes[Math.floor(Math.random()*6)];
 
    while (current_quote == previous_quote){
-     current_quote = quotes[Math.floor(Math.random()*3)]; 
+     current_quote = quotes[Math.floor(Math.random()*6)]; 
    };
    
    quote_tag.text(current_quote);
