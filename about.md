@@ -7,11 +7,11 @@ tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 
 .... for a start ....
 
-Personal website to organize, pen and visualize my thoughts
+Personal website to focus, pen and visualize my thoughts on programming.
 
-I enjoy experimenting with:
+I enjoy developing in:
 
 * Ruby
 * R
-* Javascript 
+* JavaScript 
 
