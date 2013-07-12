@@ -7,7 +7,7 @@ tags: [Sublime Text 2, Load Path, Console, Tips]
 comments: true
 ---
 
-To run code from the console of [Sublime Text](http://www.sublimetext.com/), simply use the shortcut `cmd+b` while viewing code in Sublime Text.
+To run code from the console of [Sublime Text](http://www.sublimetext.com/), simply use the shortcut `cmd+b`. This is a convenient way to view results from your code in addition to using irb.
 
 <figure>
   <img src="/images/2013-7-12-bit-1.png">
