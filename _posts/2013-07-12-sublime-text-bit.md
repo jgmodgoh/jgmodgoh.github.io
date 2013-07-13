@@ -7,13 +7,13 @@ tags: [Sublime Text 2, Load Path, Console, Tips]
 comments: true
 ---
 
-To run code from the console of [Sublime Text](http://www.sublimetext.com/), simply use the shortcut `cmd+b`. This is a convenient way to view results from your code in addition to using irb.
+To run code from the console of [Sublime Text](http://www.sublimetext.com/), simply use the shortcut `cmd+b`. This is a quick and convenient way to view results from your code in addition to using irb.
 
 <figure>
   <img src="/images/2013-7-12-bit-1.png">
 </figure>
 
-However, if this is the first time you are running code from Sublime Text, you might encounter an error when ruby tries to require a file. The problem is the default load path in Sublime Text might not include where your ruby gems are intalled. A simple fix is to get your load path from the bash terminal with the command `echo $PATH`.
+However, if this is the first time you are ever running code from Sublime Text, you might encounter an error when ruby tries to require a file. The problem is the default load path in Sublime Text is probably not including the path to where your ruby gems are intalled. A simple fix is to get it from the bash terminal using the command `echo $PATH`.
 
 <figure>
   <img src="/images/2013-7-12-bit-2.png">
