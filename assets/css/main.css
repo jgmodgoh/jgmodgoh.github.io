@@ -43,8 +43,8 @@ blockquote{font-family:'volkorn',serif;font-style:italic;font-size:24px;font-siz
 .footnotes{font-size:14px;font-size:0.875rem;line-height:1.7143;font-family:'source-sans-pro',sans-serif;}
 tt,code,kbd,samp,pre{font-family:'source-code-pro',monospace;}
 p code{font-size:16px;font-size:1rem;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
-.highlight{overflow-x:auto;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}
-.hll{background-color:#ffffcc;}
+.highlight{background-color:#F8F8FF;overflow-x:auto;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}
+.hll{background-color:#ffffcc;} /*#FFD700*/
 .c{color:#999988;font-style:italic;}
 .err{color:#a61717;background-color:#e3d2d2;}
 .k{color:#000000;font-weight:bold;}
@@ -587,7 +587,7 @@ body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid
 .entry-header{max-width:640px;width:100%;margin-right:auto;margin-left:auto;}@media only screen and (min-width: 62.5em){.entry-header{max-width:100%;margin-right:0;margin-left:0;}}
 .entry-tags{display:block;margin-top:2em;text-transform:uppercase;font-size:16px;font-size:1rem;font-weight:600;}.entry-tags a{color:#333333;}
 span+.entry-title{margin-top:0;}
-.entry-title{font-family:'volkorn',serif;font-style:italic;font-size:36px;font-size:2.25rem;font-weight:700;line-height:1;letter-spacing:-3px;}.entry-title a{color:#000000;}
+.entry-title{font-family:'source-sans-pro',sans-serif;font-style:normal;font-size:36px;font-size:2.25rem;font-weight:700;line-height:1;letter-spacing:-3px;}.entry-title a{color:#000000;}
 @media only screen and (min-width: 48em){.entry-title{max-width:600px;font-size:52px;font-size:3.25rem;}}@media only screen and (min-width: 62.5em){.entry-title{max-width:800px;font-size:68px;font-size:4.25rem;}}
 .entry-wrapper{margin:0 auto 3em;max-width:440px;padding-right:20px;padding-left:20px;*zoom:1;}.entry-wrapper:before,.entry-wrapper:after{display:table;content:"";line-height:0;}
 .entry-wrapper:after{clear:both;}
