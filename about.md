@@ -27,6 +27,6 @@ Some blogs I actively follow are:
 
 Apart from the *VERY* serious work and programming I do, I like snowboarding, P90X and watching science fiction television/movies. 
 
-Please drop me an email at jg@john-goh.com if you would to chat.
+Please drop me an email at jg@john-goh.com if you would like to chat.
    
 ***
