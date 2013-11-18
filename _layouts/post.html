@@ -30,21 +30,25 @@
       </footer>
       <div class="entry-content">
         {{ content }}
+        
+        <nav class="pagination" role="navigation">
+          {% if page.previous %}
+            {% if page.previous.category == page.category %}
+              <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"> Previous post: <caption>{{page.previous.title}}</caption><br><img src="/images/previous_page.svg"></a>
+            {% endif %}
+          {% endif %}
+          {% if page.next %}
+            {% if page.next.category == page.category %}
+            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"> Next post: <caption>{{page.next.title}}</caption><br><img src="/images/next_page.svg"></a>
+            {% endif %}
+          {% endif %}
+        </nav><!-- /.pagination -->
+
         {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+      <div class="uparrow" id="uparrow"></div>
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-    <nav class="pagination" role="navigation">
-      {% if page.previous %}
-        {% if page.previous.category == page.category %}
-          <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous post</a>
-        {% endif %}
-      {% endif %}
-      {% if page.next %}
-        {% if page.next.category == page.category %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next post</a>
-        {% endif %}
-      {% endif %}
-    </nav><!-- /.pagination -->
+    
   </article>
 </div><!-- /#main -->
 
