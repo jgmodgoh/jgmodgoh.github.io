@@ -11,7 +11,7 @@ tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 
 ***
 
-I was born and raised in sunny [Singapore](http://en.wikipedia.org/wiki/Singapore) where I graduated with a B.Eng. from the [National University of Singapore](http://www.nus.edu.sg/). In 2008 I moved to New York City to pursue an M.S. in Financial Engineering and a year later, I graduated from [Columbia University](http://www.columbia.edu/). I now live in the charming west village neigborhood in Manhattan.
+I was born and raised in sunny [Singapore](http://en.wikipedia.org/wiki/Singapore) where I graduated with a Bachelor of Engineering from the [National University of Singapore](http://www.nus.edu.sg/). In 2008 I moved to New York City to pursue a Master of Science in Financial Engineering and graduated from [Columbia University](http://www.columbia.edu/) a year later. I now live in the charming west village neigborhood in Manhattan.
 
 This is a personal site for me to write notes and any thoughts as I continue to learn about programming and data analysis. I find that this helps me better internalize what I learn. Also, a lot of written material here serve as reference for myself as I progress. 
 
