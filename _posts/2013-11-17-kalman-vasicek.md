@@ -5,6 +5,7 @@ description: "applying the Kalman Filter to the Vasicek Model"
 category: articles
 tags: [Kalman Filter, Vasicek]
 comments: true
+link: http://bit.ly/1cbaIpD
 ---
 
 

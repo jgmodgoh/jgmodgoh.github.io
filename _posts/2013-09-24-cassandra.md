@@ -5,6 +5,7 @@ description: "setting up a cluster with 3 nodes."
 category: articles
 tags: [Cassandra, Ruby]
 comments: true
+link: http://bit.ly/1eJ6k98
 ---
 ## Introduction
 This is an introductory post on setting up a multi node cluster with Cassandra and running queries on a sample data set using ruby.
