@@ -11,7 +11,7 @@ owner:
   avatar:         john-goh-photo.jpg
   email:          jg@john-goh.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        jgmodgoh
   facebook:       john.goh.31
   github:         "jgmodgoh"
   linkedin:       "john-goh/10/a2a/115"
@@ -47,6 +47,8 @@ markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
+
+twittershare: http://twitter.com/share
 
 kramdown:
   auto_ids: true
